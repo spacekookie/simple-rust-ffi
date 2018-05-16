@@ -1,0 +1,10 @@
+[package]
+name = "greeter"
+version = "0.1.0"
+authors = ["Katharina Sabel <katharina.sabel@asquera.de>"]
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+cmake = "0.1"

@@ -1,0 +1,30 @@
+[[package]]
+name = "cc"
+version = "1.0.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "cmake"
+version = "0.1.31"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "cc 1.0.15 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "greeter"
+version = "0.1.0"
+dependencies = [
+ "cmake 0.1.31 (registry+https://github.com/rust-lang/crates.io-index)",
+ "libc 0.2.40 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.40"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum cc 1.0.15 (registry+https://github.com/rust-lang/crates.io-index)" = "0ebb87d1116151416c0cf66a0e3fb6430cccd120fd6300794b4dfaa050ac40ba"
+"checksum cmake 0.1.31 (registry+https://github.com/rust-lang/crates.io-index)" = "95470235c31c726d72bf2e1f421adc1e65b9d561bf5529612cbe1a72da1467b3"
+"checksum libc 0.2.40 (registry+https://github.com/rust-lang/crates.io-index)" = "6fd41f331ac7c5b8ac259b8bf82c75c0fb2e469bbf37d2becbba9a6a2221965b"
